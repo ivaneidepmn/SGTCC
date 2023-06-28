@@ -1,0 +1,88 @@
+/* Botões Apresentação  */
+.apresentacao-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: 1px solid #ffffff00;
+}
+
+.apresentacao-btn:hover {
+  border: 1px solid #ffffff;
+}
+
+.btn-entrar {
+  background: #10a352;
+}
+
+/* Botões Formulário  */
+.btn-formulario {
+  font-size: 1rem;
+  padding: 10px 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #10a352;
+  color: #ffffff;
+  border: 1px solid #ffffff00;
+  border-radius: 5px;
+}
+
+.btn-formulario {
+  justify-items: start;
+}
+
+.btn-formulario:hover {
+  background: #075f2f;
+}
+
+/* Botões Links  */
+.btn-link {
+  color: #2c0fac;
+}
+
+/* Botões Menu  */
+.menu-opcoes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.menu-item a {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: 1px solid #ffffff00;
+}
+
+.menu-item svg {
+  fill: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+.menu-item a:hover {
+  border: 1px solid #ffffff;
+}
+
+.menu-item a:active {
+  background: #ffffff;
+  color: #0b2c3a;
+}
+
+.menu-item a:active svg {
+  fill: #0b2c3a;
+}
+
+/* Botões do Menu Ativos */
+.menu-botao-ativo a svg {
+    fill: #0b2c3a;
+}
+
+.menu-botao-ativo a {
+    background: #ffffff;
+    color: #0b2c3a;
+  }

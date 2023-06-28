@@ -1,0 +1,15 @@
+.rodape-apresentacao-bg {
+    background: #0b2c3a;
+    position: relative;
+}
+
+.rodape-apresentacao {
+    display: flex;
+    justify-content: center;
+}
+
+.direitos-reservados {
+    display: block;
+    padding: 20px;
+    color: #ffffff;
+}

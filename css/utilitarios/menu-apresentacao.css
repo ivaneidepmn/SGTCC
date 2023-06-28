@@ -1,0 +1,23 @@
+.menu-apresentacao-bg {
+    color: #ffffff;
+    background: #0b2c3a;
+}
+
+.menu-apresentacao {
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-apresentacao-titulo {
+    font-size: 32px;
+}
+
+.menu-apresentacao-botoes {
+    display: flex;
+    gap: 10px;
+}
+

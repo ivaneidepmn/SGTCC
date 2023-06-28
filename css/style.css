@@ -1,0 +1,22 @@
+/* Global */
+@import './global/global.css';
+@import './global/global-sistema.css';
+@import './global/formularios.css';
+
+/* autenticacao */
+@import './autenticacao/entrar.css';
+
+/* Sistemas */
+@import './sistema/inicio.css';
+@import './sistema/alunos.css';
+@import './sistema/aluno.css';
+
+/* Utilitários */
+@import './utilitarios/utilitarios.css';
+@import './utilitarios/menu-apresentacao.css';
+@import './utilitarios/rodape-apresentacao.css';
+@import './utilitarios/botoes.css';
+@import './utilitarios/menu.css';
+@import './utilitarios/listas.css';
+@import './utilitarios/formularios.css';
+
